@@ -1,0 +1,141 @@
+/* style.css */
+
+body {
+    background: hsla(61, 81%, 88%, 1);
+    background: linear-gradient(0deg, hsla(61, 81%, 88%, 1) 0%, hsla(233, 78%, 34%, 1) 0%, hsla(39, 100%, 76%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(61, 81%, 88%, 1) 0%, hsla(233, 78%, 34%, 1) 0%, hsla(39, 100%, 76%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(61, 81%, 88%, 1) 0%, hsla(233, 78%, 34%, 1) 0%, hsla(39, 100%, 76%, 1) 100%);
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    color:#000000;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: hsla(61, 81%, 88%, 1);
+    background: linear-gradient(0deg, hsla(61, 81%, 88%, 1) 0%, hsla(233, 78%, 34%, 1) 0%, hsla(39, 100%, 76%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(61, 81%, 88%, 1) 0%, hsla(233, 78%, 34%, 1) 0%, hsla(39, 100%, 76%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(61, 81%, 88%, 1) 0%, hsla(233, 78%, 34%, 1) 0%, hsla(39, 100%, 76%, 1) 100%);
+}
+
+header {
+    background: #000596;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #9e9e9e;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #000941;
+    color: rgb(255, 210, 105);
+}
+
+td {
+    background-color: #e9e9e9;
+}
+
+tr:hover {
+    background-color: #d4e6e5;
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #9e9e9e;
+}
+
+input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    background-color: #1a006e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #001171;
+}
+
+h1, h2, h3,p {
+    padding: 20px 0;
+    color: rgb(255, 210, 105);
+}
+
+a {
+   color: rgb(166, 116, 0);
+   font-size: 30px;
+   
+}
+.btn {
+    padding: 10px 15px;
+    background-color: #001171;
+    color: rgb(255, 210, 105);
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #29489e;
+}
+
+/* Styles pour positionner les boutons en haut à droite */
+.btn-container {
+    position: absolute;
+    bottom: 5px;
+    top: 5px;
+    right: 10px;
+}
